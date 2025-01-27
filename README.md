@@ -1,4 +1,4 @@
-## install uv
+## uv Installation
 uv docs ==> Installation ==> command ==> pip install uv
 
 
