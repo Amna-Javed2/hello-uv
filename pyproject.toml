@@ -1,0 +1,18 @@
+[project]
+name = "hello-uv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Amna-Javed2", email = "amna32611@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+hello-uv = "hello_uv:main"
+hello = "hello_uv.hello:greeting"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
