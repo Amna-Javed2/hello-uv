@@ -7,6 +7,7 @@ uv init --package hello-uv
 
 
 cd hello-uv
+
 code .
 
 ## Create a file in the src folder.
